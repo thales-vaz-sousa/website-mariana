@@ -1,21 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.foto_sobre_mim{
+.menu-checkbox,
+.menu-icon {
+  display: none;
+  /* Esconde o botão no computador */
+}
+
+.foto_sobre_mim {
 
   width: 50%;
-  max-width: 480px; 
+  max-width: 480px;
   height: auto;
   object-fit: cover;
 }
 
 
-.estrela_hard_skills{
+.estrela_hard_skills {
 
-width: 100%;
-height: auto;
-max-width: 15px;
+  width: 100%;
+  height: auto;
+  max-width: 15px;
 
 }
 
@@ -24,7 +29,7 @@ max-width: 15px;
 }
 
 
-.hard_skills_lista{
+.hard_skills_lista {
 
   list-style-type: none;
   padding: 0;
@@ -35,33 +40,33 @@ max-width: 15px;
 .hard_skills_lista li {
   display: flex;
   align-items: center;
-  gap:0.416rem;
+  gap: 0.416rem;
   margin-bottom: 8%;
   font-family: "Montserrat", sans-serif;
-  
-  }
 
-.Adobe_Illustrator{
+}
+
+.Adobe_Illustrator {
 
   width: 22%;
   height: auto;
   object-fit: cover;
-  
+
 }
 
-.Adobe_Photoshop{
-  width: 22%;
-  height: auto;
-  object-fit: cover;
-}
-
-.Adobe_InDesign{
+.Adobe_Photoshop {
   width: 22%;
   height: auto;
   object-fit: cover;
 }
 
-.VS_Code{
+.Adobe_InDesign {
+  width: 22%;
+  height: auto;
+  object-fit: cover;
+}
+
+.VS_Code {
   width: 22%;
   height: auto;
   object-fit: cover;
@@ -73,7 +78,7 @@ max-width: 15px;
   object-fit: cover;
 }
 
-.estrela_decorativa{
+.estrela_decorativa {
   width: 20%;
   height: auto;
   object-fit: cover;
@@ -81,26 +86,27 @@ max-width: 15px;
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
-  font-family: 'montserrat'; sans serif;
+  font-family: 'montserrat';
+  sans serif;
 
 }
 
 .cabecalho {
   position: fixed;
-  background-color:#FFD4D4;
-  top: 0;  
+  background-color: #FFD4D4;
+  top: 0;
   width: 100%;
   padding: 1% 5%;
-  
-    
+
+
 }
 
 .cabecalho_menu {
@@ -112,19 +118,19 @@ body {
 
 
 .cabecalho_menu a {
-  color: #C8384C; 
+  color: #C8384C;
   text-decoration: none;
   font-weight: 500;
-  font-family: 'montserrat'; sans serif;
-  font-size: 0,9375rem;
+  font-family: 'montserrat';
+  sans serif;
+  font-size: 0, 9375rem;
   transition: 0.3s ease;
 
 }
 
-.cabecalho_menu a:hover{
+.cabecalho_menu a:hover {
 
-Color: #1A0202
-
+  Color: #1A0202
 }
 
 
@@ -134,28 +140,26 @@ Color: #1A0202
   color: #1A0202;
 }
 
-.container{
-    margin: 0%;
-    justify-content: space-between;
+.container {
+  margin: 0%;
+  justify-content: space-between;
 
-    
+
 }
 
-.container_capa{
+.container_capa {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 8%;
-    margin: 0%;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #C8384C;
-    Color: #FFD4D4
-    
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 8%;
+  margin: 0%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #C8384C;
+  Color: #FFD4D4
 }
 
 .container_capa h1 {
@@ -164,12 +168,12 @@ Color: #1A0202
   font-style: normal;
   font-size: 12.5rem;
   align-items: center;
-  
+
 }
 
 
 
-.container_capa h3{
+.container_capa h3 {
 
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
@@ -177,37 +181,37 @@ Color: #1A0202
   font-style: normal;
   padding: 5%;
   align-items: center;
-  
+
 }
 
 
-.container_conteudo_sobre{
+.container_conteudo_sobre {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:6rem;
-    padding: 6% 8%;   
-    background-color: #FFD4D4;
-     
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding: 6% 8%;
+  background-color: #FFD4D4;
+
 }
 
 
-.container_conteudo_sobre h1{
+.container_conteudo_sobre h1 {
   font-family: "Viaoda Libre", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 4.375rem;
   line-height: 0.9;
   margin-bottom: 5%;
-  color:#1A0202
+  color: #1A0202
 }
 
 h1 {
   line-height: 0.9 !important;
 }
 
-.container_conteudo_sobre p{
+.container_conteudo_sobre p {
 
   color: #1A0202;
   font-family: 'Montserrat', sans-serif;
@@ -215,22 +219,22 @@ h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 190%;
-  margin-bottom: 5%; 
+  margin-bottom: 5%;
   max-width: 550px;
 
 }
 
-.container_conteudo_sobre_botoes{
+.container_conteudo_sobre_botoes {
 
   display: flex;
-  flex-direction:row;
-  align-items: center; 
-  gap: 1.25rem; 
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
 }
 
-.botoes_sobre{
+.botoes_sobre {
 
-  background-color:#C8384C;
+  background-color: #C8384C;
   color: #FFD4D4;
   width: 80%;
   text-align: center;
@@ -240,37 +244,37 @@ h1 {
   font-weight: 500;
   text-decoration: none;
   padding: 3% 0;
-  
-  
+
+
 }
 
 
 .container_conteudo_sobre_botoes a:hover {
 
-background-color: #1A0202;
+  background-color: #1A0202;
 
 }
-  
 
 
-.container_conteudo_software_skills{
 
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    background-color: #C8384C;
-    align-items: center;
-    align-content: flex-start;
-    gap: 1.6rem;
-    flex-direction: column;
-    padding: 8% 0%;
+.container_conteudo_software_skills {
 
-    
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #C8384C;
+  align-items: center;
+  align-content: flex-start;
+  gap: 1.6rem;
+  flex-direction: column;
+  padding: 8% 0%;
+
+
 }
 
 
 
-.linha_superior{
+.linha_superior {
 
   display: flex;
   justify-content: center;
@@ -278,30 +282,30 @@ background-color: #1A0202;
   gap: 1.1rem;
   flex-wrap: wrap;
 }
-  
-  
-.skills_box_softwares{
+
+
+.skills_box_softwares {
   background-color: #FFD4D4;
   border-radius: 1rem;
   border: 1px solid #1A0202;
   width: 20%;
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1;
   padding: 2.5rem 2rem;
   box-sizing: border-box;
-   
+
 }
 
-.skills_box_softwares h3{
+.skills_box_softwares h3 {
 
   text-align: center;
   font-family: 'Viaoda Libre', sans-serif;
   font-size: 1.875rem;
-  font-weight:400;
-  
+  font-weight: 400;
+
 }
 
 
-.hard_skills_box{
+.hard_skills_box {
   background-color: #FFD4D4;
   border-radius: 1rem;
   border: 1px solid #1A0202;
@@ -310,21 +314,21 @@ background-color: #1A0202;
   aspect-ratio: 1/1;
   padding: 2.5rem 2rem;
   box-sizing: border-box;
-  
-  
+
+
 }
 
-.hard_skills_box h3{
+.hard_skills_box h3 {
 
   text-align: center;
   font-family: 'Viaoda Libre', sans-serif;
   font-size: 1.875rem;
   font-weight: 400;
-  
+
 }
 
 
-.soft_skills_box{
+.soft_skills_box {
   background-color: #FFD4D4;
   border-radius: 1rem;
   border: 1px solid #1A0202;
@@ -333,15 +337,15 @@ background-color: #1A0202;
   aspect-ratio: 1/1;
   padding: 2.5rem 2rem;
   box-sizing: border-box;
-  }
+}
 
-.soft_skills_box h3{
+.soft_skills_box h3 {
 
   text-align: center;
   font-family: 'Viaoda Libre', sans-serif;
   font-size: 1.875rem;
   font-weight: 400;
- 
+
 }
 
 
@@ -350,54 +354,54 @@ background-color: #1A0202;
 }
 
 
-.soft_skills_lista{
+.soft_skills_lista {
 
   list-style-type: none;
   padding: 0;
   margin: 0;
-  
+
 }
 
 .soft_skills_lista li {
   display: flex;
   align-items: center;
-  gap: 0.41rem; 
+  gap: 0.41rem;
   margin-bottom: 7%;
   font-family: "Montserrat", sans-serif;
-  
-  }
 
-  .skills_box_plus_lista{
+}
+
+.skills_box_plus_lista {
 
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 0.80rem 3.22rem; 
-  }
+  grid-template-columns: 1fr 1fr;
+  gap: 0.80rem 3.22rem;
+}
 
-  .skills_box_plus h3{
+.skills_box_plus h3 {
 
-  text-align:left;
+  text-align: left;
   font-family: 'Viaoda Libre', sans-serif;
   font-size: 1.875rem;
   font-weight: 400;
   display: flex;
-  margin-top: 1%;  
-  padding:0rem 0.55rem 0rem;
-  }
+  margin-top: 1%;
+  padding: 0rem 0.55rem 0rem;
+}
 
-    
-  
 
-  .skills_box_plus{
+
+
+.skills_box_plus {
 
   display: flex;
   align-items: flex-start;
-  gap: 1.36rem; 
-  }
+  gap: 1.36rem;
+}
 
 
-.linha_inferior{
+.linha_inferior {
 
   display: flex;
   justify-content: center;
@@ -410,7 +414,7 @@ background-color: #1A0202;
 
 
 
-.skills_box_plus{
+.skills_box_plus {
 
   background-color: #FFD4D4;
   border-radius: 16px;
@@ -419,17 +423,16 @@ background-color: #1A0202;
   padding: 40px 30px;
   box-sizing: border-box;
   max-width: 90%;
-    
-}
-
-
-.linha_superior{
-
-align-items:first baseline
 
 }
 
-.icons_softwares{
+
+.linha_superior {
+
+  align-items: first baseline
+}
+
+.icons_softwares {
 
   display: flex;
   align-items: flex-end;
@@ -440,60 +443,60 @@ align-items:first baseline
 
 }
 
-.container_conteudo_projetos{
+.container_conteudo_projetos {
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 80px 0px;
-    min-height:100vh;
-    background-color: #FFD4D4;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 0px;
+  min-height: 100vh;
+  background-color: #FFD4D4;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 
-.linha_superior_projeto{
+.linha_superior_projeto {
 
-  flex-direction: row; 
+  flex-direction: row;
   gap: 80px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  
+
 }
 
-.linha_inferior_projeto{
+.linha_inferior_projeto {
 
-  flex-direction: row; 
+  flex-direction: row;
   gap: 80px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
- 
-
-}
-
-.projeto_primeira_linha_iustração{
-
-width: 289px;
-height: auto;
-object-fit: cover;
-align-items: center;
-
-}
-
-.projeto_primeira_linha{
-
-width: 300px;
-height: auto;
-object-fit: cover;
 
 
 }
 
-.projeto_segunda_linha{
+.projeto_primeira_linha_iustração {
+
+  width: 289px;
+  height: auto;
+  object-fit: cover;
+  align-items: center;
+
+}
+
+.projeto_primeira_linha {
+
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+
+
+}
+
+.projeto_segunda_linha {
 
   width: 300px;
   height: auto;
@@ -501,22 +504,22 @@ object-fit: cover;
 
 }
 
-.container_conteudo_contato{
+.container_conteudo_contato {
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 20px 80px;
-    min-height:60vh;
-    background-color:#C8384C;
-    flex-direction: column;
-    gap: 100px ;
-    
-  }
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 80px;
+  min-height: 60vh;
+  background-color: #C8384C;
+  flex-direction: column;
+  gap: 100px;
 
-  .container_conteudo_contato h1{
+}
 
-  text-align:left;
+.container_conteudo_contato h1 {
+
+  text-align: left;
   color: #FFD4D4;
   font-family: 'Viaoda Libre', sans-serif;
   font-size: 3.125rem;
@@ -527,14 +530,12 @@ object-fit: cover;
   align-content: flex-start;
   gap: 15px;
 
-  }
+}
 
 
+.container_conteudo_contato p {
 
-
-  .container_conteudo_contato p{
-
-  text-align:left;
+  text-align: left;
   color: #FFD4D4;
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
@@ -546,11 +547,11 @@ object-fit: cover;
   margin: 0;
   gap: 15px;
 
-  }
+}
 
-.container_conteudo_contato h2{
+.container_conteudo_contato h2 {
 
-  text-align:left;
+  text-align: left;
   color: #FFD4D4;
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
@@ -564,67 +565,69 @@ object-fit: cover;
 }
 
 
-  .estrela_contato_titulo{
+.estrela_contato_titulo {
 
-    width: 35px;
-    height: auto;
-    object-fit: cover;
+  width: 35px;
+  height: auto;
+  object-fit: cover;
 
-  }
+}
 
-  .itens_contato{
+.itens_contato {
 
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: flex-start;
-  width: 100%; 
-  max-width: 1100px; 
+  width: 100%;
+  max-width: 1100px;
   gap: 100px;
-  
-    
-  }
 
-  .bloco_icones{
 
-    display: flex;
-    align-items: center; 
-    gap: 15px; 
-  }
+}
 
-  .icons_contato{
 
-    width: 50px;
-    height: auto;
+.bloco_icones {
 
-  }
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-  .icons_contato_whatsapp{
+.icons_contato {
 
-    width: 60px;
-    height: auto;
+  width: 50px;
+  height: auto;
 
-  }
+}
+
+.icons_contato_whatsapp {
+
+  width: 60px;
+  height: auto;
+
+}
 
 
 body:has(#sobre:target) a[href="#sobre"],
 body:has(#software_skills:target) a[href="#software_skills"],
 body:has(#projetos:target) a[href="#projetos"],
-body:has(#contato:target) a[href="#contato"] 
-{ color: #1A0202;}
+body:has(#contato:target) a[href="#contato"] {
+  color: #1A0202;
+}
 
 
 @media (max-width: 480px) {
-  
+
   .cabecalho_menu {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 2rem; 
-        padding: 2%;
-       
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2%;
+
   }
 
-  .estrela_capa{
+  .estrela_capa {
 
     width: 10%;
     height: auto;
@@ -651,159 +654,159 @@ body:has(#contato:target) a[href="#contato"]
 
   .container_conteudo_sobre h1 {
     font-size: 4rem;
-    
+
   }
 
-   
+
 
   .container_conteudo_sobre p {
     font-size: 1rem;
-   
+
   }
 
   .container_conteudo_sobre_botoes {
-    
+
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
 
-  } 
-
-  .botoes_sobre{
-  
-  width: 100%;  
-  padding: 6% 0;
-
   }
 
-  
-  .container_conteudo_sobre_botoes a:hover{
+  .botoes_sobre {
 
-  background-color: #1A0202;
+    width: 100%;
+    padding: 6% 0;
 
   }
 
 
-  .container_conteudo_software_skills{
+  .container_conteudo_sobre_botoes a:hover {
+
+    background-color: #1A0202;
+
+  }
+
+
+  .container_conteudo_software_skills {
 
     display: flex;
-    flex-direction: column;    
-    gap: 1.6rem;    
+    flex-direction: column;
+    gap: 1.6rem;
     padding: 8% 0%;
 
-    
+
   }
 
-  
-.skills_box_softwares{
-  
-  width: 70%;
-  height: auto;
-    
-}
 
-.hard_skills_box{  
+  .skills_box_softwares {
 
-  width: 70%;
-  height: auto;  
-  align-items: center;
-}
+    width: 70%;
+    height: auto;
 
+  }
 
-.soft_skills_box{
-  
-  width: 70%;
-  height: auto;   
-  
+  .hard_skills_box {
 
-}
+    width: 70%;
+    height: auto;
+    align-items: center;
+  }
 
 
-.soft_skills_lista {
+  .soft_skills_box {
 
-flex-wrap: wrap;
-text-align: center;
-padding: 5% 0% 0% 14%;
-flex-direction: column;
-
-}
-
-.hard_skills_lista{
-   
-flex-wrap: wrap;
-text-align: center;
-padding: 5% 0% 0% 6%;
-flex-direction: column;
-
-}
-
-.skills_box_plus h3{
-
-  margin-top: 0%;
-  display:flex;
-  flex-direction: column;
-  text-align: center;
- 
-
-}
-
-.skills_box_plus{
- 
-  width: 100%;
-  height: auto;  
-  align-items: center;
-  display: flex;
-  flex-direction: column;
- }
-
-.skills_box_plus_lista{
-
-  display: flex;
-  flex-direction: column;
-  padding-left: 10%;
-  flex-wrap: wrap;
-
-}
-
-.container_conteudo_projetos{
-
-  display: flex;
-  align-items: center;
-  flex-direction: column;   
-  
-}
-
-.linha_superior_projeto{
-
-  display: flex;
-  flex-direction:column;
-  padding: 11%;
-  
-
-}
-
-.linha_inferior_projeto{
-
-display: flex;
-flex-direction: column;
-
-}
+    width: 70%;
+    height: auto;
 
 
- .container_conteudo_contato {
+  }
+
+
+  .soft_skills_lista {
+
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5% 0% 0% 14%;
+    flex-direction: column;
+
+  }
+
+  .hard_skills_lista {
+
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5% 0% 0% 6%;
+    flex-direction: column;
+
+  }
+
+  .skills_box_plus h3 {
+
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+  }
+
+  .skills_box_plus {
+
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills_box_plus_lista {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    flex-wrap: wrap;
+
+  }
+
+  .container_conteudo_projetos {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .linha_superior_projeto {
+
+    display: flex;
+    flex-direction: column;
+    padding: 11%;
+
+
+  }
+
+  .linha_inferior_projeto {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .container_conteudo_contato {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     padding: 10% 5%;
     text-align: center;
-  
+
   }
 
 
   .itens_contato {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     align-items: center;
     gap: 2rem;
     width: 100%;
@@ -811,25 +814,25 @@ flex-direction: column;
 
   .bloco_icones {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     align-items: center;
     gap: 0.5rem;
   }
 
   .icons_contato {
-    width: 60px;   
+    width: 60px;
     height: auto;
   }
 
 
-  .contato_titulo{
+  .contato_titulo {
 
     font-size: 6rem;
     margin-top: -2rem;
     margin-bottom: 2rem;
 
   }
- 
+
   .contato h2 {
 
     display: flex;
@@ -837,30 +840,231 @@ flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-       
+
   }
 
   .contato p {
     font-size: 0.9rem;
     text-align: center;
   }
-.icons_contato_whatsapp{
 
-  width: 60%;
+  .icons_contato_whatsapp {
+
+    width: 60%;
+    height: auto;
+  }
+
+  .texto {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .foto_sobre_mim {
+
+    width: 100%;
+
+  }
+
+  /* Exibe o ícone do menu */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    float: right;
+    /* Alinha o ícone à direita */
+  }
+
+  /* Cria as linhas do hambúrguer usando CSS */
+  .hamburguer {
+    display: block;
+    background: #C8384C;
+    height: 3px;
+    width: 25px;
+    position: relative;
+  }
+
+  .hamburguer::before,
+  .hamburguer::after {
+    content: '';
+    background: #C8384C;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.3s ease;
+  }
+
+  .hamburguer::before {
+    top: 8px;
+  }
+
+  .hamburguer::after {
+    bottom: 8px;
+  }
+
+  /* Esconde o menu de navegação por padrão no mobile */
+  .cabecalho_menu {
+    display: none;
+    flex-direction: column;
+    background-color: #FFD4D4;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid #C8384C;
+  }
+
+  /* Quando o checkbox estiver marcado, o menu aparece! */
+  .menu-checkbox:checked~.cabecalho_menu {
+    display: flex;
+  }
+
+  /* Faz o X quando clicado (opcional, para charme) */
+  .menu-checkbox:checked~.menu-icon .hamburguer {
+    background: transparent;
+  }
+
+  .menu-checkbox:checked~.menu-icon .hamburguer::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .menu-checkbox:checked~.menu-icon .hamburguer::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+  }
+}
+
+/*links*/
+.link_contato_email {
+  text-decoration: none;
+  /* Remove o sublinhado */
+  display: flex;
+  /* Mantém o alinhamento que você já criou */
+  align-items: center;
+  gap: 15px;
+  /* Mantém o espaçamento do bloco_icones */
+  color: inherit;
+  /* Faz o texto herdar a cor que você já definiu no container */
+}
+
+.link_contato {
+  text-decoration: none;
+  /* Remove o sublinhado */
+  display: flex;
+  /* Mantém os itens alinhados em linha */
+  align-items: center;
+  /* Alinha verticalmente ícone e texto */
+  gap: 15px;
+  /* Mantém o espaçamento original */
+  color: inherit;
+  /* Herda as cores definidas para o container de contato */
+  width: 100%;
+  /* Garante que a área clicável ocupe o bloco todo */
+}
+
+/* Efeito visual opcional para mostrar que é clicável */
+.link_contato:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+/*arrumando seção software*/
+/* Container Geral */
+.container_conteudo_software_skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 80px 20px;
+  background-color: #C8384C;
+}
+
+/* Linha Superior - Alinhamento Horizontal */
+.linha_superior {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  /* Garante que todas tenham a mesma altura */
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Cards Individuais */
+.skills_box_softwares,
+.hard_skills_box,
+.soft_skills_box {
+  background-color: #FFD4D4;
+  border: 1px solid #1A0202;
+  border-radius: 20px;
+  padding: 30px;
+  flex: 1;
+  /* Faz as 3 caixas dividirem o espaço igualmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Grid de Softwares */
+.icons_softwares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 colunas perfeitas */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.icons_softwares img {
+  width: 45px;
   height: auto;
 }
-  
-.texto{
 
-display: flex;
-flex-direction: column;
-
+/* Listas de Skills */
+.skills_lista_vazada,
+.skills_box_plus_lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
 }
 
-.foto_sobre_mim{
-
-width: 100%;
-
+.skills_lista_vazada li,
+.skills_box_plus_lista li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
 }
 
+.skills_lista_vazada img,
+.skills_box_plus_lista img {
+  width: 15px;
+}
+
+/* Linha Inferior - Caixa Larga */
+.skills_box_plus {
+  background-color: #FFD4D4;
+  border: 1px solid #1A0202;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1100px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.skills_box_plus_lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Divide em 2 colunas como na imagem */
+  gap: 10px 40px;
+  margin: 0;
 }
